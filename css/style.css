@@ -1,0 +1,138 @@
+html, body {
+    
+}
+
+body{
+	background: #DCDDDF;
+	overflow: auto;
+}
+.mainframe {
+	
+	height: 99vh;
+	display: grid;
+    grid-template-columns: auto 400px;
+
+}
+.left_unit {
+	margin: 10px 10px 0px 10px;
+	height: 500px;
+	border: 1px dashed blue;
+	
+}
+.right_unit {
+	margin: 10px 10px 0px 0px;
+	height: 500px;
+
+	border: 1px dashed green;
+	
+}
+
+.right_unit-inn {
+	display: block;
+	outline: none;
+	width: 90%;
+	margin: 14px auto;
+	font: 24px Helvetica, Arial, sans-serif;
+	text-align: center;
+	background: #f9f5f5;
+	border: 3px solid #c8c8c8;
+	padding: 5px 5px 5px 5px;
+	border-radius: 5px;
+}
+.right_unit-inn::-webkit-input-placeholder {
+	font: 22px Helvetica, Arial, sans-serif;
+	color: #c8c8c8;
+}
+.right_unit-inn:focus {
+	background: #f5fbc6;
+}
+.result_name_org {
+	margin: 10px 12px;
+	padding: 10px;
+	border: 1px solid green;
+	border-radius: 5px;
+}
+
+.result_name_org a {
+	display: block;
+	text-decoration: none;
+	font: 18px Helvetica, Arial, sans-serif;
+	text-align: center;
+	font-weight: 100;
+	color: #2a6dbb;
+
+	line-height: 22px;
+
+}
+.result_name_org a:visited { 
+
+}
+
+.result_inn_org {
+	margin: 10px 12px;
+	padding: 10px;
+	border: 1px solid green;
+	border-radius: 5px;
+}
+
+.result_inn_org a {
+	display: block;
+	text-decoration: none;
+	font: 18px Helvetica, Arial, sans-serif;
+	text-align: center;
+	font-weight: 100;
+	color: #2a6dbb;
+}
+.bank_region {
+	margin: 10px 12px;
+	padding: 10px;
+	border: 1px solid green;
+	border-radius: 5px;
+
+	display: block;
+	text-decoration: none;
+	font: 16px Helvetica, Arial, sans-serif;
+	text-align: center;
+	font-weight: 100;
+	color: #f13238;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.content {
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow: 0 1px 0 #fff, 0 -2px 5px rgba(0,0,0,0.08) inset;
+	-moz-box-shadow: 0 1px 0 #fff, 0 -2px 5px rgba(0,0,0,0.08) inset;
+	-ms-box-shadow: 0 1px 0 #fff, 0 -2px 5px rgba(0,0,0,0.08) inset;
+	-o-box-shadow: 0 1px 0 #fff, 0 -2px 5px rgba(0,0,0,0.08) inset;
+	box-shadow: 0 1px 0 #fff, 0 -2px 5px rgba(0,0,0,0.08) inset;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	background: #eae7e7;
+	border: 1px solid #c8c8c8;
+	color: #777;
+	font: 18px Helvetica, Arial, sans-serif;
+
+	margin: 0 0 10px;
+	padding: 15px 10px 15px 40px;
+	width: 400px;
+}
