@@ -1,13 +1,13 @@
-$("#party").suggestions({
-	token: "c11dd243fcba49fced8c84b44bc97b617279bec5", 
-	type: "PARTY", 
-	count: 5, 
-	onSelect: showSuggestion
-});
-
 function ext_Copy(get_text) {
   	navigator.clipboard.writeText(get_text.innerHTML); 			// Копируем текст в буфер
 }
+
+function clearInput() {
+	document.getElementById('party').value = '';
+}
+
+
+
 
 function showSuggestion(suggestion) {
 
@@ -126,7 +126,12 @@ document.getElementById('result_inn_org').innerHTML = inn_org;
 
 
 
-
+$("#party").suggestions({
+	token: "c11dd243fcba49fced8c84b44bc97b617279bec5", 
+	type: "PARTY", 
+	count: 5, 
+	onSelect: showSuggestion
+});
 
 
 
