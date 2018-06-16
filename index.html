@@ -11,41 +11,23 @@
 	</head>
 	<body>
 		<div class="mainframe">
-			<div class="left_unit"></div>
+			<div class="left_unit">
+				
+			</div>
 			<div class="right_unit">
 				
+				<section class="container">
+					<input id="party" name="party" class="right_unit-inn" type="text" placeholder="Введите ИНН организации">
+				</section>
 
-
-					<section class="container">
-
-						<input id="party" name="party" type="text" class="right_unit-inn" type="text" placeholder="Введите ИНН организации">
-						
-					</section>
-
-
-
-
-
-				<div class="result_name_org">
-					<a href="#" id="result_name_org" onclick="CopyToClipboard()" title="Нажатие на ссылку - копирует в буфер обмена!" ></a>
-				</div>
-				<div class="result_inn_org">
-					<a href="#" id="result_inn_org"></a>
-				</div>
+				<div class="result_name_org"><a href="#" id="result_name_org" onclick="ext_Copy()"></a></div>
+				<div class="result_inn_org"><a href="#" id="result_inn_org" onclick="ext_Copy()"></a></div>
 				<div id="region_bank" class="bank_region"></div>
 
-
-				
-
-
-
 			</div>
-			
-			
-			
-
-
 		</div>
+
+<input type="text" id="result_name_org" onclick="ext_Copy()" class="input_name_org">
 
 
 <script src="js/jquery.min.js"></script>
