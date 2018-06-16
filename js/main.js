@@ -132,8 +132,3 @@ $("#party").suggestions({
 	count: 5, 
 	onSelect: showSuggestion
 });
-
-
-
-
-
