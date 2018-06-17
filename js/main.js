@@ -8,7 +8,6 @@ function clearInput() {
 
 
 
-
 function showSuggestion(suggestion) {
 
   var name_org = suggestion.value;
